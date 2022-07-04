@@ -87,7 +87,7 @@ class _HomePageState extends State<HomePage> {
                                 shape: BoxShape.circle,
                               ),
                               child: Image.network(
-                                dataInfo.image.small,
+                                dataInfo.image.small.toString(),
                                 scale: 1.0,
                               ),
                             ),
